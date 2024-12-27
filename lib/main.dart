@@ -9,13 +9,13 @@ void main() {
       providers: [
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
       ],
-      child: const MyApp(),
+      child: const BalanceApp(),
     ),
   );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class BalanceApp extends StatelessWidget {
+  const BalanceApp({super.key});
 
   @override
   Widget build(BuildContext context) {

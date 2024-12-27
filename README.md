@@ -98,13 +98,6 @@ Dodatkowo należy zmodyfikować pliki
     initl: Umożliwia formatowanie i parsowanie dat w różnych formatach w tym przypadku 'yyyy-MM-dd'.
 
 # Zrzuty ekranu
-    Login:
-![login.png](ss/login.png)
-    Register:
-![register.png](ss/register.png)
-    Error Handling:
-![error.png](ss/error.png)
-    Balance:
-![balance.png](ss/balance.png)
-    Add Income / Expenses
+![login.png](ss/login.png)![register.png](ss/register.png)
+![error.png](ss/error.png)![balance.png](ss/balance.png)
 ![income.png](ss/income.png)
