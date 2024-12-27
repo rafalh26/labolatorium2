@@ -89,7 +89,7 @@ class _ExpensesPageState extends State<ExpensesPage> {
             ),
             TextField(
               controller: _amountController,
-              decoration: InputDecoration(labelText: 'Amount (€)'),
+              decoration: InputDecoration(labelText: 'Amount [PLN]'),
               keyboardType: TextInputType.number,
             ),
             SizedBox(height: 10),

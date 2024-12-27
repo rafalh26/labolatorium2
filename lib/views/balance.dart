@@ -81,7 +81,7 @@ class _BalancePageState extends State<BalancePage> {
             ),
             TextField(
               controller: _amountController,
-              decoration: InputDecoration(labelText: 'Amount (€)'),
+              decoration: InputDecoration(labelText: 'Amount [PLN]'),
               keyboardType: TextInputType.number,
             ),
             SizedBox(height: 10),
@@ -274,7 +274,7 @@ class _BalancePageState extends State<BalancePage> {
           FloatingActionButton.extended(
             backgroundColor: balanceColor,
             label: Text(
-              'Balance: €${_balance.toStringAsFixed(2)}',
+              'Balance: [PLN]${_balance.toStringAsFixed(2)}',
               style: TextStyle(color: Colors.white),
             ),
             onPressed: () {},
