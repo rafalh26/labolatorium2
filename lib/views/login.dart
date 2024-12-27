@@ -61,7 +61,11 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('lib/assets/login_icon.png', height: 150, width: 150,),
+            Image.asset(
+              'lib/assets/login_icon.png', // Correct path to the image
+              height: 150,
+              width: 150,
+            ),
             const SizedBox(height: 20),
             TextField(
               controller: _usernameController,
